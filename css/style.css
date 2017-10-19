@@ -1,0 +1,138 @@
+#services{
+  text-align: center;
+}
+
+.icon-marketing{
+  display: inline-block;
+  max-width: 30%;
+  padding: 10px;
+}
+
+.icon-marketing .h4{
+  height: 25px;
+}
+.icon-marketing .description{
+  height: 65px;
+}
+
+#contact{
+  padding: 75px 0;
+  background-color: initial !important
+}
+
+#contactForm textarea{
+  resize: none;
+}
+
+#contactForm .help-text{
+  font-size: 18px;
+  color: white;
+}
+
+#contactList{
+  list-style: none;
+  padding: 0;
+}
+
+#contactList li{
+  font-size: 32px;
+  color: white;
+  /*text-shadow: 0px 0px 5px rgba(0,0,0,.5);*/
+  position: relative;
+}
+
+#contactList li .bigger{
+  font-size: 38px;
+}
+#contactList li .smaller{
+  font-size: 28px;
+}
+
+#contactList li .icon-circle{
+  background: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background: #27ae60;
+  /*box-shadow: 0px 0px 5px rgba(0,0,0,.5);*/
+}
+
+#contactList li i {
+  display: inline-block;
+  margin: 0;
+  color: white;
+  text-shadow: none;
+}
+
+#about{
+  background: #ecf0f1
+}
+
+.about-image-wrapper{
+  text-align: center;
+}
+
+.about-image{
+  display: inline-block;
+}
+.about-image img{
+  max-width: 300px;
+}
+
+
+.about-image .img{
+  width: 300px;
+  height: 300px;
+  display: block;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+
+.about-content{
+  margin-bottom: 75px;
+}
+.about-content:last-child{
+  margin-bottom: 0;
+}
+
+.about-content-wrapper{
+
+  display: table;
+  height: 300px;
+
+}
+
+
+
+.about-content .timeline-panel{
+
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.about-content.left-right .timeline-panel{
+  text-align: right;
+}
+
+#clients{
+  text-align: center;
+}
+
+a.logo img{
+  width: 100px;
+    height: 100px;
+}
+
+#mainNav.affix-top{
+  border-bottom: 1px solid rgba(120,120,120,.5);
+}
+
+header .intro-text{
+  text-shadow: 0px 0px 2px rgba(0,0,0,.75);
+}
